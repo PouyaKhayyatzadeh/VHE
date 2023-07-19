@@ -1,0 +1,4 @@
+function uinit = u0fun(region,Tinit)
+
+uinit = zeros(3,length(region.x));
+uinit(1,:) = Tinit + 4*cos(2*pi*(region.x.));
